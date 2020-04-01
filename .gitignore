@@ -3,3 +3,4 @@ logs
 snapshots
 masks
 .idea
+.ipynb_checkpoints/*
