@@ -1,5 +1,20 @@
 # pytorch-inpainting-with-partial-conv
 
+## 自分用追記
+-------------------
+CelebA-HQ(512x512)のデータを学習するように修正した。(https://drive.google.com/drive/folders/11Vz0fqHS2rXDb5pprgTjpD7S2BAJhi1P)
+mask画像もNVIDIAのサイトからダウンロードした。(https://nv-adlr.github.io/publication/partialconv-inpainting)
+
+trainの実行はtrain.ipynbから
+
+参考ブログ：
+https://qiita.com/saneatsu/items/da06e8632c7f5ba65279
+https://woodyzootopia.github.io/2018/12/%E8%AB%96%E6%96%87%E8%A7%A3%E8%AA%ACpartial-convolution/
+https://www.mahirokazuko.com/entry/2018/09/13/154420
+-------------------
+
+
+
 **[Official implementation](https://github.com/NVIDIA/partialconv) is released by the authors.**
 
 **Note that this is an ongoing re-implementation and I cannot fully reproduce the results. Suggestions and PRs are welcome!**
